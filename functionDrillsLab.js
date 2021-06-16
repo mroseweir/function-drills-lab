@@ -220,7 +220,7 @@ console.log('-----')
 function chocolateFrogBot(gold){
   return gold / 3
 }
-console.log(chocolateFrogBot(4));
+console.log(chocolateFrogBot(9));
 
 console.log('-----')
 
@@ -230,15 +230,10 @@ console.log('-----')
 */
 
 //CODE HERE
-function chocolateFrogBot2(gold){
-  let totalFrogs = 0;
-  for (let i = 0; gold > 2; i++){
-    totalFrogs += 1;
-    gold -= 3;
-  }
-  return totalFrogs
+function chocolateFrogBot(gold){
+  return Math.floor(gold / 3)
 }
-console.log(chocolateFrogBot2(4));
+console.log(chocolateFrogBot(5);
 
 console.log('-----')
 
